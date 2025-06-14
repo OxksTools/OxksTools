@@ -1,8 +1,7 @@
 # ⚙️ OxkzToolz GitHub Profile
 
-```
-class OxkzToolz:
-    """Builder of automation tools, generators, and APIs."""
+
+```class OxkzToolz:
 
     username: str = "OxkzToolz"
     origin: str = "Self-taught"
