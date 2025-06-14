@@ -1,58 +1,65 @@
-# 🔧 OxkzToolz GitHub Profile
+# ⚙️ OxkzToolz GitHub Profile
 
 class OxkzToolz:
+    """Builder of automation tools, generators, and APIs."""
 
     username: str = "OxkzToolz"
-    status: str = "Beta tools dropping soon."
-    active_projects: int = 5
+    origin: str = "Self-taught"
+    active: bool = True
+    focus: str = "Fast & creative problem-solving"
 
     @staticmethod
-    def skills() -> dict:
+    def contact() -> dict:
         return {
-            "generators": ["Instagram", "Facebook", "TikTok"],
-            "automation": ["Follow bots", "Captcha solvers", "Platform tools"],
-            "current_focus": "EzSolverV2 (ReCaptcha V2 API)"
+            "discord": "Launching soon...",
+            "status": "Discord server in development",
+            "github": "https://github.com/OxkzToolz"
         }
 
     @staticmethod
     def tech_stack() -> list:
         return [
-            "Python", "Flask", "JavaScript", "Docker",
-            "Git", "Linux", "SQLite"
+            "Python", "Flask", "JavaScript", "Docker", "Linux", "Git"
         ]
 
     @staticmethod
-    def contact() -> dict:
+    def tools_built() -> list:
+        return [
+            "Instagram Generator",
+            "Facebook Generator",
+            "TikTok Generator",
+            "Follow Bots",
+            "EzSolverV2 (Captcha Solver API)"
+        ]
+
+    @staticmethod
+    def projects() -> dict:
         return {
-            "discord": "ComingSoon#0000",
-            "status": "Discord server launching soon",
-            "github": "https://github.com/OxkzToolz"
+            "generators": {
+                "Instagram": "Email + Proxy Supported",
+                "Facebook": "Realistic testing accounts",
+                "TikTok": "Includes bypass routines"
+            },
+            "bots": ["Follow automation", "Utility tools", "Test kits"],
+            "captcha_solver": {
+                "name": "EzSolverV2",
+                "status": "Beta",
+                "price_per_1k": "$0.50 (0.5 credits/solve)",
+                "free_credits": 5
+            }
         }
 
-
-class Projects(OxkzToolz):
-
     @staticmethod
-    def showcase() -> list:
+    def roadmap() -> list:
         return [
-            {"name": "Instagram Generator", "features": ["Email", "Proxy Support"]},
-            {"name": "Facebook Generator", "features": ["Realistic Test Accounts"]},
-            {"name": "TikTok Generator", "features": ["Bypass Techniques"]},
-            {"name": "EzSolverV2", "status": "Beta", "type": "Captcha Solver API"},
-            {"name": "Follow Bots", "targets": ["Instagram", "TikTok", "More"]}
-        ]
-
-    @staticmethod
-    def coming_soon() -> list:
-        return [
-            "Discord support hub",
-            "Admin credit system",
-            "Tool marketplace"
+            "Launch Discord Hub",
+            "Drop early access tools",
+            "Add payment + credit system",
+            "Release full EzSolverV2 API docs"
         ]
 
 
 if __name__ == "__main__":
     dev = OxkzToolz()
-    print(f"Welcome to {dev.username}'s GitHub!")
-    print("Explore bots, tools, and automation projects 💻")
-
+    print(f"🚀 Welcome to {dev.username}'s GitHub!")
+    print("Explore tools, APIs, and automation projects.")
