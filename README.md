@@ -1,7 +1,6 @@
 # 🔧 OxkzToolz GitHub Profile
 
 class OxkzToolz:
-    """Automation dev, API engineer, and tool builder."""
 
     username: str = "OxkzToolz"
     status: str = "Beta tools dropping soon."
