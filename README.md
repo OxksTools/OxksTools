@@ -1,5 +1,6 @@
 # ⚙️ OxkzToolz GitHub Profile
 
+```
 class OxkzToolz:
     """Builder of automation tools, generators, and APIs."""
 
@@ -62,4 +63,8 @@ class OxkzToolz:
 if __name__ == "__main__":
     dev = OxkzToolz()
     print(f"🚀 Welcome to {dev.username}'s GitHub!")
-    print("Explore tools, APIs, and automation projects.")
+    print("Explore tools, APIs, and automation projects.")```python
+
+# 💡 Tip: Tools are for testing, education, and experimentation only.
+# ⚠️ Use responsibly. All bots are released under "Educational Purposes Only".
+
