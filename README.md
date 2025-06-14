@@ -1,7 +1,7 @@
 # ⚙️ OxkzToolz GitHub Profile
 
-
-```class OxkzToolz:
+```python
+class OxkzToolz:
 
     username: str = "OxkzToolz"
     origin: str = "Self-taught"
@@ -62,8 +62,7 @@
 if __name__ == "__main__":
     dev = OxkzToolz()
     print(f"🚀 Welcome to {dev.username}'s GitHub!")
-    print("Explore tools, APIs, and automation projects.")```python
+    print("Explore tools, APIs, and automation projects.")
 
 # 💡 Tip: Tools are for testing, education, and experimentation only.
 # ⚠️ Use responsibly. All bots are released under "Educational Purposes Only".
-
