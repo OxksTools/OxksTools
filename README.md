@@ -44,8 +44,6 @@ Welcome to my GitHub! I’m a developer focused on building **automation tools**
 
 ## 📫 Connect with Me
 
-- 🌐 Website/API: [yourdomain.com](https://yourdomain.com)
-- 📧 Email: `youremail@example.com`
 - 💬 Discord: *Launching soon — stay tuned!*
 
 ---
