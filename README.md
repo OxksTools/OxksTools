@@ -1,58 +1,59 @@
-# 👋 Hey, I'm OxkzToolz!
+# 🔧 OxkzToolz GitHub Profile
 
-Welcome to my GitHub! I’m a developer focused on building **automation tools**, **account generators**, and **custom APIs** — crafted for speed, flexibility, and creative problem-solving.
+class OxkzToolz:
+    """Automation dev, API engineer, and tool builder."""
 
----
+    username: str = "OxkzToolz"
+    status: str = "Beta tools dropping soon."
+    active_projects: int = 5
 
-## 🧠 About Me
+    @staticmethod
+    def skills() -> dict:
+        return {
+            "generators": ["Instagram", "Facebook", "TikTok"],
+            "automation": ["Follow bots", "Captcha solvers", "Platform tools"],
+            "current_focus": "EzSolverV2 (ReCaptcha V2 API)"
+        }
 
-- 💻 Self-taught coder with a passion for automation and API development
-- 🧪 I’ve built:
-  - ✅ Instagram, Facebook, TikTok **account generators**
-  - 🤖 Follow bots & platform automation tools
-  - 🔓 A powerful **ReCaptchaV2 Solver** (currently in beta)
-- 💬 Launching a **Discord community server** soon for:
-  - Early tool drops
-  - Project previews
-  - Support & contact
+    @staticmethod
+    def tech_stack() -> list:
+        return [
+            "Python", "Flask", "JavaScript", "Docker",
+            "Git", "Linux", "SQLite"
+        ]
 
----
+    @staticmethod
+    def contact() -> dict:
+        return {
+            "discord": "ComingSoon#0000",
+            "status": "Discord server launching soon",
+            "github": "https://github.com/OxkzToolz"
+        }
 
-## 🚀 Projects
 
-| 🧩 Tool | ⚙️ Description |
-|--------|----------------|
-| 🧪 **Instagram Generator** | Fully automated with proxy + email support |
-| 🧪 **Facebook Generator** | Realistic dev/test account creation |
-| 🧪 **TikTok Generator** | Robust account gen with bypass techniques |
-| 🔓 **ReCaptchaV2 Solver** | Fast, API-based solver (currently in beta) |
-| 🤖 **Follow Bots** | Automate growth on IG, TikTok & more |
-| 🧰 **Misc Tools** | Experimental bots, utilities & test kits |
+class Projects(OxkzToolz):
 
----
+    @staticmethod
+    def showcase() -> list:
+        return [
+            {"name": "Instagram Generator", "features": ["Email", "Proxy Support"]},
+            {"name": "Facebook Generator", "features": ["Realistic Test Accounts"]},
+            {"name": "TikTok Generator", "features": ["Bypass Techniques"]},
+            {"name": "EzSolverV2", "status": "Beta", "type": "Captcha Solver API"},
+            {"name": "Follow Bots", "targets": ["Instagram", "TikTok", "More"]}
+        ]
 
-## 🔧 Tech Stack
+    @staticmethod
+    def coming_soon() -> list:
+        return [
+            "Discord support hub",
+            "Admin credit system",
+            "Tool marketplace"
+        ]
 
-![Python](https://img.shields.io/badge/-Python-333?style=flat&logo=python)
-![Flask](https://img.shields.io/badge/-Flask-333?style=flat&logo=flask)
-![JavaScript](https://img.shields.io/badge/-JavaScript-333?style=flat&logo=javascript)
-![Docker](https://img.shields.io/badge/-Docker-333?style=flat&logo=docker)
-![Linux](https://img.shields.io/badge/-Linux-333?style=flat&logo=linux)
-![Git](https://img.shields.io/badge/-Git-333?style=flat&logo=git)
 
----
+if __name__ == "__main__":
+    dev = OxkzToolz()
+    print(f"Welcome to {dev.username}'s GitHub!")
+    print("Explore bots, tools, and automation projects 💻")
 
-## 📫 Connect with Me
-
-- 💬 Discord: *Launching soon — stay tuned!*
-
----
-
-## 📊 GitHub Stats
-
-![OxkzToolz's GitHub stats](https://github-readme-stats.vercel.app/api?username=OxkzToolz&show_icons=true&theme=dark)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=OxkzToolz&layout=compact&theme=dark)
-
----
-
-> ⚠️ **Disclaimer**: All content is for **educational and testing** purposes only. Use responsibly.
